@@ -50,11 +50,11 @@ class A1{
 }
 public class Travel {
     public static void main(String[] args) {
-        A1 obj=new A1("Vishal","10/08/2023", "9168020504",22,"Udgir","Pune",'c');
+        A1 obj=new A1("Megha","10/09/2024", "9170702646",25,"Udgir","Pune",'c');
         obj.display();
         obj.setBoarding("Latur");
         obj.setDestination("Mumbai");
-        obj.setContact("9421518119");
+        obj.setContact("9248563226");
         obj.display();
 
     }

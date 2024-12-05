@@ -27,7 +27,7 @@ class A{
 
 public class Encaps {
     public static void main(String[] args) {
-        A obj=new A("vishal",22,"Sde",20000);
+        A obj=new A("Megha",24,"Sde",20000);
         obj.display();
        // System.out.println(obj.getSal());
         obj.setSal(30000);

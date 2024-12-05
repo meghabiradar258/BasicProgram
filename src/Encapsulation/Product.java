@@ -16,6 +16,7 @@ class Expense{
     }
 
     public double getManufacturingCost() {
+
         return ManufacturingCost;
     }
 
@@ -68,10 +69,10 @@ class Expense{
 }
 public class Product {
     public static void main(String[] args) {
-        Expense obj=new Expense("Amul","Butterscotch Icecream",'A',"Butter","Country Delight",10,2,2.5,15);
+        Expense obj=new Expense("Amul","Milk",'A',"milk","Country Delight",10,2,2.5,15);
         obj.display();
         System.out.println("--------------------------------------------");
-        obj.setSource("Anveshan Farms");
+        obj.setSource("Megha Biradar Farm");
         obj.setManufacturingCost(6);
         obj.setTransportationCost(1);
         obj.setMarketingCost(1);

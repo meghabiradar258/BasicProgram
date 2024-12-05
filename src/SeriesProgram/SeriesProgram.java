@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
+package SeriesProgram;
 
 public class SeriesProgram {
 }

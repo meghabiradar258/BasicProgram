@@ -37,12 +37,12 @@ class Context{
 }
 public class Book {
     public static void main(String[] args) {
-        Context obj=new Context("Chetan Bhagat","Half Girlfriend",123);
+        Context obj=new Context("V.S Khadekar","Yayati",1999);
         obj.display();
-        System.out.println("---------------------------------------------------");
-        obj.setAuthor("Sadhguru");
-        obj.setTitle("Save Soil");
-        obj.setId(100);
+
+        obj.setAuthor("Sane Guruji");
+        obj.setTitle("ham Chi Aai");
+        obj.setId(101);
         obj.display();
     }
 }

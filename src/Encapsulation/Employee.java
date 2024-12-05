@@ -1,5 +1,5 @@
 package Encapsulation;
-class  P{
+class Paraent {
     String ename;
     String empid;
     private double empsal;
@@ -19,7 +19,7 @@ class  P{
     public void setAddress(String address) {
         this.address = address;
     }
-    P(String a, String b, double c, String d){
+    Paraent(String a, String b, double c, String d){
         this.ename=a;
         this.empid=b;
         this.empsal=c;
@@ -34,7 +34,7 @@ class  P{
 }
 public class Employee {
     public static void main(String[] args) {
-        P obj=new P("Rohan","5678910",50000,"Warje");
+        Paraent obj=new Paraent("megha","5678910",50000,"Warje");
         obj.display();
         obj.setEmpsal(100000);
         obj.setAddress("TDIT, Warje Bridge");
